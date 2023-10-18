@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to right,
+            black 0%,
+            black 50%,
+            white 50%,
+            white 100%);
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5vw;
+}
+
+.left {
+    width: 50vw;
+    text-align: right;
+    color: white;
+    padding-right: 3vw;
+}
+
+.right {
+    width: 50vw;
+    text-align: left;
+    color: black;
+}
